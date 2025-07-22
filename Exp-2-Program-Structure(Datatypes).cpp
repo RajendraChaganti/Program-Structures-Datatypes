@@ -44,3 +44,25 @@ int main() {
     cout << "Actual string length: " << strVar.length() << " characters" << endl;
     return 0;
 }
+/*
+Output
+Enter an integer: 45
+Enter a float: 34
+Enter a double: 32
+Enter a character: r
+Enter a boolean (0 or 1): 0
+Enter a long integer: 3
+Enter a short integer: 4
+Enter a string (single word only): raja
+
+Sizes of different data types (in bytes):
+int: 4 bytes
+float: 4 bytes
+double: 8 bytes
+char: 1 bytes
+bool: 1 bytes
+long: 8 bytes
+short: 2 bytes
+string: 32 bytes
+Actual string length: 4 characters
+*/
